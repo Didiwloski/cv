@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>MY CONTACT DETAILS</h1>
+  <p>My Fictional Address</p>
+  <p>My fictional phone number</p>
+
+  <form class="" action="index.html" method="post">
+    <label for="">Your Name:</label>
+    <input type="text" name="" value="">
+    <input type="color" name="" value="">
+    <br>
+    <label for="">Chcesz otrzymywać maile?</label>
+    <input type="checkbox">
+    <br>
+    <label for="">Wprowadź hasło:</label>
+    <input type="password" name="" value="">
+    <input type="submit">
+
+    <br>
+    <br>
+    <label for="">Do ilu BB 3BETUJESZ otwarcie CO 2BB gdy jesteś na SB?</label>
+    <input type="range" min="3" max="100" step="0.1" list="tickmarks">
+    <!-- dodawanie listy do suwaka nie działa bo musi być wystylizowane z CSS - przeglądarki zazwyczaj nie wspierają tego w HTMLu -->
+    <datalist id="tickmarks">
+      <option value="3" label="3"></option>
+      <option value="10"></option>
+      <option value="20"></option>
+      <option value="30" label="30"></option>
+      <option value="40"></option>
+      <option value="50"></option>
+      <option value="60" label="60"></option>
+      <option value="70"></option>
+      <option value="80"></option>
+      <option value="90"></option>
+      <option value="100" label="100"></option>
+    </datalist>
+  </form>
+
+  <hr>
+
+  <form action="mailto:adrian.pawlowski37@gmail.com" method="post" enctype="text/plain">
+    <label for="">Your Name:</label>
+    <input type="text" name="yourName" value="">
+    <br>
+    <label for="">Your Mail:</label>
+    <input type="email" name="yourMail" value="">
+    <br>
+    <br>
+    <label for="">Your Message:</label>
+    <br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea>
+    <input type="submit">
+  </form>
+
+</body>
+
+</html>
